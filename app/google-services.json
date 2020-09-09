@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768932299041",
+    "firebase_url": "https://spinner-4e4f4.firebaseio.com",
+    "project_id": "spinner-4e4f4",
+    "storage_bucket": "spinner-4e4f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768932299041:android:63d3e4c0a0d5339d453e60",
+        "android_client_info": {
+          "package_name": "com.example.spinner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768932299041-ukuv9n6qkvbftm9nhjld26poq3q7da9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFoC37B4nwA6qKiuzIyK9CI_2e6BiGCss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768932299041-ukuv9n6qkvbftm9nhjld26poq3q7da9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+     <Spinner
+           android:id="@+id/spState"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp" />
+   
+       <Spinner
+       android:id="@+id/spDistrict"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   
+   
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="AutoComplete state - "
+               android:textSize="20dp"/>
+   
+           <AutoCompleteTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:maxLines="1"
+               android:id="@+id/actState"/>
+   
+   
+   
+   </LinearLayout>
+   
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="AutoComplete District - "
+               android:textSize="20dp"/>
+   
+           <AutoCompleteTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:maxLines="1"
+               android:id="@+id/actDistrict"/>
+       </LinearLayout>
+
+<!--    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="225dp"
+            android:layout_height="83dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="176dp" />
+
+        <EditText
+            android:id="@+id/etState"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="126dp" />
+
+        <Button
+            android:id="@+id/btn_addState"
+            android:layout_width="56dp"
+            android:layout_height="83dp"
+            android:onClick="btnAddState"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="60dp"
+            android:text="ok" />
+    </RelativeLayout>-->
+
+</LinearLayout>
